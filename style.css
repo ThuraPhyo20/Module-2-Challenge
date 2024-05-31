@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #E4C59E;
+}
+
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #AF8260;
+}
+
+header h1 {
+    font-size: 36px;    
+}
+
+header a {
+    text-decoration: none;
+}
+
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    font-size: 1.55vw;
+    margin: 0 30px;
+    color: #ffff;
+    
+}
+
+header nav ul li a:hover {
+    color: #803D3B;
+    transition: 1s;
+    font-weight: bolder;
+}
+
+.info-section{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.hero{
+    padding-top: 60px;
+    padding-right: 220px;
+}
+.hero img{
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;  
+    
+}
+
+.info{
+    padding-top: 100px;
+    padding-left: 250px;
+    letter-spacing: 2px;
+}
+
+.hero img:hover{
+    width: 300px;
+    height: 250px;
+    border-radius: 60px;
+}
+
+button{
+    width: 80px;
+    height: 25px;
+    border-radius: 20px;
+}
+
+button:hover{
+    background-color: antiquewhite;
+}
+
+.about{
+    text-align: center;
+    margin: 25px;
+}
+
+.about img{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+}
+
+.about h2{
+    padding: 15px;
+    text-decoration: underline;
+}
+
+.contact{
+margin-top: 20px;
+
+}
+
+
+.name{
+    width: 300px;
+    height: 30px;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.work h1{
+    text-align: center;
+    padding: 25px;
+    text-decoration: underline;
+}
+.work p{
+    padding: 15px;
+    text-indent: 25px;
+}
+
+
